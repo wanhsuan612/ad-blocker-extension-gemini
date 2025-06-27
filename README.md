@@ -1,4 +1,4 @@
-# Ad Blocker Chrome Extension
+# 🧀 Ad Blocker Chrome Extension
 
 A simple Chrome extension that blocks ads on websites using both network request blocking and DOM manipulation.
 
