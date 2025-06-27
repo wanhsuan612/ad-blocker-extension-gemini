@@ -1,0 +1,17 @@
+[
+  { "urlFilter": "||doubleclick.net^" },
+  { "urlFilter": "||adservice.google.com^" },
+  { "urlFilter": "||googlesyndication.com^" },
+  { "urlFilter": "||googleadservices.com^" },
+  { "urlFilter": "||adnxs.com^" },
+  { "urlFilter": "||adsrvr.org^" },
+  { "urlFilter": "||criteo.com^" },
+  { "urlFilter": "||pubmatic.com^" },
+  { "urlFilter": "||rubiconproject.com^" },
+  { "urlFilter": "||openx.net^" },
+  { "urlFilter": "||taboola.com^" },
+  { "urlFilter": "||cdn.taboolasyndication.com^" },
+  { "urlFilter": "||trc.taboola.com^" },
+  { "urlFilter": "||images.taboola.com^" },
+  { "urlFilter": "||api.taboola.com^" }
+]
