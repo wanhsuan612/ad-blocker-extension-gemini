@@ -33,7 +33,6 @@ function hideAds() {
   adSelectors.forEach(selector => {
     document.querySelectorAll(selector).forEach(el => {
       el.classList.add(HIDE_CLASS);
-      el.style.display = "none";
       chrome.storage.local.get(['blockedCount'], (result) => {
         const currentCount = result.blockedCount || 0;
         chrome.storage.local.set({blockedCount: currentCount + 1});
@@ -65,6 +64,9 @@ function setBlockingState(isEnabled) {
     removeHideStyle();
   }
 }
+
+// Reset the blockedCount
+chrome.storage.local.set({blockedCount: 0});
 
 chrome.storage.local.get({ isEnabled: true }, (result) => {
   setBlockingState(result.isEnabled);
