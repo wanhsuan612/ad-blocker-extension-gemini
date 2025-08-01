@@ -7,7 +7,16 @@
 </head>
 <body>
   <h1>Ad Blocker</h1>
-  <p>Blocked Ads: <span id="blocked-count">0</span></p>
+  <div class="container">
+    <p>Enable</p>
+    <label class="switch">
+      <input type="checkbox" id="toggle-switch">
+      <span class="slider round"></span>
+    </label>
+  </div>
+  <div id="container">
+    <p>Blocked Ads: <span id="blocked-count">0</span></p>
+  </div>
   <script src="popup.js"></script>
 </body>
 </html>
